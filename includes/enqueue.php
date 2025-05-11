@@ -1,5 +1,4 @@
 <?php
-
 defined('ABSPATH') || exit;
 
 function wp_ajax_search_scripts() {
@@ -7,7 +6,7 @@ function wp_ajax_search_scripts() {
         'wp-ajax-search',
         plugins_url('../js/search.js', __FILE__),
         ['jquery'],
-        '1.0',
+        '1.1',
         true
     );
 
